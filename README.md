@@ -1,4 +1,4 @@
-ducking-nono-hapiness
+ducking-nono-happiness
 =====================
 
-Projet du processeur canard appelé afectueusement nono, le canard heureux
+Projet du processeur canard appelé affectueusement nono, le canard heureux.
