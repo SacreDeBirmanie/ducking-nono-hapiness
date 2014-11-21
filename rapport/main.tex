@@ -1,6 +1,7 @@
 \documentclass[a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[frenchb]{babel}
+\usepackage[T1]{fontenc}
 \usepackage{ifpdf}
 \usepackage{hyperref}
 \title{Processeu \textsc{Nono} 1et 2}
@@ -41,13 +42,13 @@
 			\hline \texttt{shr$_{d}$, r$_{s}$, r$_{t}$} & F$_{1}$ & \texttt{1110} &  &  \\ 
 			\hline \texttt{li r$_{d}$, $val$} & F$_{2}$ & \texttt{1111} &  &  \\ 
 			\hline \texttt{halt} & F$_{1}$ & \texttt{0000} &  &  \\ 
-			\hline \texttt{b $offset$} & F$_{3}$ & \texttt{0001} &  &  \\
-			\hline \texttt{beq r$_{s}$, r$_{t}$, $offset$} & F$_{3}$ & \texttt{0010} &  &  \\ 
-			\hline \texttt{bne r$_{s}$, r$_{t}$, $offset$} & F$_{3}$ & \texttt{0011} &  &  \\ 
-			\hline \texttt{bqe r$_{s}$, r$_{t}$, $offset$} & F$_{3}$ & \texttt{0100} &  &  \\ 
-			\hline \texttt{ble r$_{s}$, r$_{t}$, $offset$} & F$_{3}$ & \texttt{0101} &  &  \\ 
-			\hline \texttt{bgt r$_{s}$, r$_{t}$, $offset$} & F$_{3}$ & \texttt{0110} &  &  \\ 
-			\hline \texttt{blt r$_{s}$, r$_{t}$, $offset$} & F$_{3}$ & \texttt{0111} &  &  \\ 
+			\hline \texttt{b \textit{offset}} & F$_{3}$ & \texttt{0001} &  &  \\
+			\hline \texttt{beq r$_{s}$, r$_{t}$, \textit{offset}} & F$_{3}$ & \texttt{0010} &  &  \\ 
+			\hline \texttt{bne r$_{s}$, r$_{t}$,\textit{offset}} & F$_{3}$ & \texttt{0011} &  &  \\ 
+			\hline \texttt{bge r$_{s}$, r$_{t}$, \textit{offset}} & F$_{3}$ & \texttt{0100} &  &  \\ 
+			\hline \texttt{ble r$_{s}$, r$_{t}$, \textit{offset}} & F$_{3}$ & \texttt{0101} &  &  \\ 
+			\hline \texttt{bgt r$_{s}$, r$_{t}$, \textit{offset}} & F$_{3}$ & \texttt{0110} &  &  \\ 
+			\hline \texttt{blt r$_{s}$, r$_{t}$, \textit{offset}} & F$_{3}$ & \texttt{0111} &  &  \\ 
 
 			\hline 
 			\end{tabular}
