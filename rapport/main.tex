@@ -26,26 +26,49 @@
 	
 	\section{Implémentation}
 	
-		% présentation des principales classes, méthodes
-		% à quoi elles servent?
-		\paragraph{titre du paragraphe}{contenu}
-		\paragraph{}{paragraphe sans titre}
+		\subsection{Opcode des instructions}
+			
+			\paragraph{titre }{xflmxcflmfldglmdf}
+			
+			\begin{tabular}{|p{4cm}|c|c|c|c|}
+			\hline Instruction & Format & Opcode & paramètres & ? \\ 
+			\hline \texttt{add r$_{d}$, r$_{s}$, r$_{t}$} & F$_{1}$ & \texttt{1000} &  &  \\ 
+			\hline \texttt{sub r$_{d}$, r$_{s}$, r$_{t}$} & F$_{1}$ & \texttt{1001} &  &  \\ 
+			\hline \texttt{or r$_{d}$, r$_{s}$, r$_{t}$} & F$_{1}$ & \texttt{1011} &  &  \\ 
+			\hline \texttt{and r$_{d}$, r$_{s}$, r$_{t}$} & F$_{1}$ & \texttt{1100} &  &  \\ 
+			\hline \texttt{not r$_{d}$, r$_{s}$} & F$_{1}$ & \texttt{1101} &  &  \\ 
+			\hline \texttt{shl r$_{d}$, r$_{s}$, r$_{t}$} & F$_{1}$ & \texttt{1110} &  &  \\ 
+			\hline \texttt{shr$_{d}$, r$_{s}$, r$_{t}$} & F$_{1}$ & \texttt{1111} &  &  \\ 
+			\hline \texttt{li r$_{d}$, $val$} & F$_{2}$ & \texttt{000} &  &  \\ 
+			\hline \texttt{b $offset$} & F$_{2}$ & \texttt{0000} &  &  \\ 
+			\hline \texttt{beq r$_{s}$, r$_{t}$, $offset$} & F$_{3}$ & \texttt{0001} &  &  \\ 
+			\hline \texttt{bne r$_{s}$, r$_{t}$, $offset$} & F$_{3}$ & \texttt{0010} &  &  \\ 
+			\hline \texttt{bqe r$_{s}$, r$_{t}$, $offset$} & F$_{3}$ & \texttt{0011} &  &  \\ 
+			\hline \texttt{ble r$_{s}$, r$_{t}$, $offset$} & F$_{3}$ & \texttt{0100} &  &  \\ 
+			\hline \texttt{bgt r$_{s}$, r$_{t}$, $offset$} & F$_{3}$ & \texttt{0101} &  &  \\ 
+			\hline \texttt{blt r$_{s}$, r$_{t}$, $offset$} & F$_{3}$ & \texttt{0110} &  &  \\ 
+			\hline \texttt{halt} & F$_{1}$ & \texttt{0111} &  &  \\ 
+			\hline 
+			\end{tabular}
+			
+			\paragraph{}{paragraphe sans titre}
 		
 		\subsection{Premier pattern}
 		% l'observeur
-		\paragraph{titre du paragraphe}{contenu}
-		\paragraph{}{paragraphe sans titre}
+			\paragraph{titre du paragraphe}{contenu}
+			\paragraph{}{paragraphe sans titre}
 		
 	\section{Utilisation Nono-1}
+	
 		\subsection{Second pattern}
 		% le décorateur
-		\paragraph{titre du paragraphe}{contenu}
-		\paragraph{}{paragraphe sans titre}
+			\paragraph{titre du paragraphe}{contenu}
+			\paragraph{}{paragraphe sans titre}
 		
-		\subsection{Troisième pattern}
-		% toto
-		\paragraph{titre du paragraphe}{contenu}
-		\paragraph{}{paragraphe sans titre}
+			\subsection{Troisième pattern}
+			% toto
+			\paragraph{titre du paragraphe}{contenu}
+			\paragraph{}{paragraphe sans titre}
 	
 	
 	\section*{Conclusion}
